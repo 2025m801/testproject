@@ -139,5 +139,10 @@ INTERNAL_IPS = [
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
+ALLOWED_HOSTS = [
+    'https://testproject-3pf6.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
